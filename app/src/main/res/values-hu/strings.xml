@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tetris</string>
+    <string name="config">Beállítások</string>
+    <string name="settings">Beállítások</string>
+    <string name="contin">Folytatás</string>
+    <string name="easy">Könnyű</string>
+    <string name="normal">Normál</string>
+    <string name="hard">Nehéz</string>
+    <string name="new_game">Új játéke</string>
+    <string name="difficulty">Nehézség:</string>
+    <string name="next">Következő:</string>
+    <string name="points">Pontok:</string>
+    <string name="exit">Kilépés</string>
+    <string name="new_record">Új rekord!</string>
+    <string name="record">Rekord:</string>
+    <string name="start">Start</string>
+    <string name="credits">Készítő</string>
+    <string name="save">Mentés</string>
+    <string name="save_and_exit">Mentés és kilépés</string>
+    <string name="new_record_name">Új rekord név</string>
+    <string name="name">Név</string>
+</resources>

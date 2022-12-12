@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="40sp">
+
+        <TextView
+            android:id="@+id/pontosText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="@string/points"
+            android:textColor="@color/branco"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/currentpointText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/branco"
+            android:textSize="24dp"
+            android:layout_marginLeft="5sp" />
+
+        <TextView
+            android:id="@+id/proximaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/next"
+            android:textColor="@color/branco"
+            android:textSize="24dp"
+            android:layout_marginLeft="50sp"/>
+
+        <ImageView
+            android:id="@+id/imageProxima"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5sp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ll" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        >
+
+        <GridLayout
+            android:id="@+id/gridboard"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp">
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginHorizontal="20sp"
+        android:gravity="center"
+        >
+
+
+        <ImageButton
+            android:id="@+id/leftBt"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top"
+            android:scaleType="fitCenter"
+            android:background="@drawable/bt_background"
+            app:srcCompat="@drawable/left" />
+
+        <ImageButton
+            android:id="@+id/downBt"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bt_background"
+            app:srcCompat="@drawable/down" />
+
+        <ImageButton
+            android:id="@+id/rightBt"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="top"
+            android:background="@drawable/bt_background"
+            app:srcCompat="@drawable/rigth" />
+
+        <ImageButton
+            android:id="@+id/rotateBt"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="top"
+            android:layout_marginLeft="50sp"
+            android:background="@drawable/bt_background"
+            app:srcCompat="@drawable/rotate" />
+
+    </LinearLayout>
+
+</LinearLayout>

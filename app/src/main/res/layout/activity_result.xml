@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/imageOver"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginTop="5sp"
+        app:srcCompat="@drawable/over" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="5sp">
+
+        <TextView
+            android:id="@+id/pontText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/points"
+            android:textColor="@color/branco"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/pontuacaoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/branco"
+            android:textSize="20sp"
+            android:layout_marginLeft="5sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="5sp"/>
+
+
+
+    <ImageView
+        android:id="@+id/imageTetris3"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:src="@drawable/tetrisname" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/newJogoBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_game"
+            android:background="@drawable/bt_background"
+            android:textColor="@color/branco"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/sairBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exit"
+            android:background="@drawable/bt_background"
+            android:textSize="24sp"
+            android:textColor="@color/branco"/>
+    </LinearLayout>
+
+</LinearLayout>

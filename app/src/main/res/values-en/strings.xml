@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tetris</string>
+    <string name="config">Configuration</string>
+    <string name="settings">Settings</string>
+    <string name="contin">Continue</string>
+    <string name="easy">Easy</string>
+    <string name="normal">Normal</string>
+    <string name="hard">Hard</string>
+    <string name="new_game">New game</string>
+    <string name="difficulty">Difficulty:</string>
+    <string name="next">Next:</string>
+    <string name="points">Points:</string>
+    <string name="exit">Exit</string>
+    <string name="new_record">New Record!</string>
+    <string name="record">Record:</string>
+    <string name="start">Start</string>
+    <string name="credits">Credits</string>
+    <string name="save">Save</string>
+    <string name="save_and_exit">Save and exit</string>
+    <string name="new_record_name">New record name</string>
+    <string name="name">Name</string>
+</resources>
